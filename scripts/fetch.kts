@@ -4,7 +4,7 @@ import java.io.File
 import java.net.HttpURLConnection
 import java.net.URL
 
-val url = "https://example.com/test.txt"
+val url = "https://server.browseinvault.workers.dev/filter"
 val output = File("downloaded.txt")
 
 val conn = URL(url).openConnection() as HttpURLConnection
