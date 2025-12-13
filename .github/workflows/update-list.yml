@@ -1,16 +1,18 @@
-name: Update merged list
+name: Fetch with Kotlin
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # daily
   workflow_dispatch:
 
 jobs:
-  run:
+  fetch:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Hello test
-        run: echo "GitHub Actions is working"
+      - name: Run Kotlin script
+        run: |
+          curl -s https://get.sdkman.io | bash
+          source "$HOME/.sdkman/bin/sdkman-init.sh"
+          sdk install kotlin
+          kotlin scripts/fetch.kts
