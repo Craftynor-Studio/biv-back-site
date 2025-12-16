@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Video on Button Click</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        video {
+            display: none; /* Hidden until button clicked */
+            width: 640px;
+            height: 360px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Play Video on Button Click</h1>
+    <button id="playBtn">Play Video</button>
+
+    <video id="myVideo" controls>
+        <source src="https://www.w3schools.com/tags/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+
+    <script>
+        const playBtn = document.getElementById("playBtn");
+        const myVideo = document.getElementById("myVideo");
+
+        playBtn.addEventListener("click", () => {
+            myVideo.style.display = "block"; // Show video
+            myVideo.play();                  // Play video
+            playBtn.style.display = "none";  // Hide button (optional)
+        });
+    </script>
+
+</body>
+</html>
