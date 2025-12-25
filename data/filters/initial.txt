@@ -6,7 +6,7 @@
 !
 
 ! Remove xvideos promo banner
-xvideos.com##div:has(a[href*="xvideos.red"])
-xvideos.com##div:has(> p:has-text(Try XVIDEOS.RED))
-xvideos.com##a[href*="xvideos.red"]:upward(div)
-xvideos.com##div[style*="background: rgb(222, 38, 0)"]
+xvideos4.com##div:has(a[href*="xvideos.red"])
+xvideos4.com##div:has(> p:has-text(Try XVIDEOS.RED))
+xvideos4.com##a[href*="xvideos.red"]:upward(div)
+xvideos4.com##div[style*="background: rgb(222, 38, 0)"]
