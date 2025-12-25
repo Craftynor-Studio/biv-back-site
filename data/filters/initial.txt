@@ -1,2 +1,82 @@
-||detyep.com^
-||tataminiessay.com^
+[Adblock Plus 2.0]
+! Title: oxguy3's adblocking filters
+! Expires: 1 hour
+! Homepage: https://gist.github.com/oxguy3/dda7958f7da766eed9fa
+! Licence: http://www.wtfpl.net/txt/copying/
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! smooth scrolling
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/jquery.nicescroll*.js
+/jquery.smoothscroll*.js
+/jquery.smooth-scroll*.js
+/jquery-smoothscroll*.js
+/jquery-smooth-scroll*.js
+/nicescroll*.js
+/smoothscroll*.js
+/smooth-scroll*.js
+/mousewheel-smooth-scroll
+/surbma-smooth-scroll
+themes/logistic/scripts/*.js
+/dexp-smoothscroll.js
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! music players with auto-play
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!/jwplayer.js
+www.sheepproductions.com/billy/billy.swf
+/streampad/sp-player.js
+/streampad/sp-player-tumblr.js
+/sp/sp-player.js
+hypster.com/flash/player.swf
+scm.hypster.com/script.php
+scmplayer.net/js/*
+scmplayer.net/script.js
+flash-mp3-player.net/medias/*
+wikplayer.com/js/lib/soundmanager/*.js
+wikplayer.com/code.js
+grooveshark.com/widget.swf
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! snow/rain/etc particle effects
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/jquery.snow.js
+/plugins/holiday-snow/*
+/plugins/let-it-snow/*
+/snowstorm*.js
+
+! Autumn leaves- by Kurt Grigg
+##div>div>img#si0
+##div>div>img#si0~img
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! right-click blockers
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/disablerightclick.
+/no-right-click-images-plugin/*$script
+/norightclick.
+/right-click-disable
+/plugins/CopyRightPro
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! browser rejection
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!/jquery.reject*.js
+! this blocks jquery.reject.js, but without risk of breaking other JS
+##div>#jr_overlay
+##div>#jr_wrap
+/plugins/advanced-browser-check/*
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! personal preferences
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+getbootstrap.com##body>a.v4-tease
+twitch.tv##.following-games-onboarding
+flickr.com##.signup-footer
+setlist.fm##.videoPlayer
